@@ -9,7 +9,8 @@ with col1:
 with col2:
     st.markdown("### </u>Harshini Vutukuri</u> ", unsafe_allow_html=True)
     # st.markdown("I'm Harshini Vutukuri.Highly motivated and results-oriented recent graduate from `G. Narayanamma Institute of Technology and Science, Hyderabad` from Telangana, India  with a degree in `Computer Science`. Proficient in `Pyhton, ML, DL` and passionate about `AI, ML, DL, NLP, CV, GenAI` . Eager to leverage my skills in a fast-paced startup environment. ")
-    st.markdown("`human = True` with experience in software development , skilled in `Python`, machine learning `ML`, and deep learning `DL`. Strong passion for `NLP`, and computer vision`CV`, ready to make an impact in fast-paced, innovative environments.")
+    st.markdown(" **`human = True`** with experience in software development , skilled in `Python`, machine learning and deep learning. ", unsafe_allow_html=True)
+    st.markdown("Strong passion for `NLP`, and computer vision`CV`, ready to make an impact in fast-paced, innovative environments.")
     col1, col2 = st.columns([1, 1])
     with col1:
         st.markdown("[Resume](https://drive.google.com/file/d/1GVkPIUYlIvuxJpSIvV1cIk6JnbyfydSI/view?usp=sharing)")
@@ -23,6 +24,14 @@ st.markdown("### Detecting bullying Tweets `LSTM & BERT` [GitHub](https://github
 st.markdown("- **Objective**: Analyse tweets to <u>Detect cyberbullying,</u> categorizing bullying content by themes like religion, age, race, and gender, using <u>Sentiment analysis.</u>", unsafe_allow_html=True)
 st.markdown("- **Approach:** Implement and compare models, starting with a <u>Naive Bayes baseline,</u> then an <u>LSTM with Attention,</u> and finally <u>BERT,</u> utilizing PyTorch for model training and evaluation.", unsafe_allow_html=True)
 st.markdown("- **Results:** The <u>BERT classifier significantly outperforms the LSTM model,</u> achieving an overall <u>accuracy of around 95%</u> and <u>F1 scores above 95%.</u>", unsafe_allow_html=True)
+st.write(" ")
+
+# 1+1
+
+st.markdown("### Machine Learning Algorithms from `Scratch` [GitHub](https://github.com/Harshin1V/MLfromscratch/blob/main/README.md)")
+st.markdown("- Implemented key machine learning algorithms from the ground up, including <u>KNN, Linear Regression, Logistic Regression, Naive Bayes, Perceptron, SVM, Decision Tree, Random Forest, PCA, K-Means, AdaBoost, and LDA.</u>", unsafe_allow_html=True)
+st.markdown("- Developed and tested algorithms by working directly with datasets, showcasing strong <u>understanding of underlying principles</u> and <u>improving debugging and optimization skills.</u>", unsafe_allow_html=True)
+st.markdown("- Utilized <u>NumPy</u> for mathematical implementation, <u>Scikit-learn</u> for data generation and testing, <u>Pandas</u> for data loading, and <u>Matplotlib</u> for data visualization.", unsafe_allow_html=True)
 st.write(" ")
 
 # 2
@@ -72,4 +81,7 @@ with col3:
     st.markdown("- `Probability`")        
     st.markdown("- `Streamlit`")
     st.markdown("- `SQL`")
-st.markdown("**Work Experience:** Worked towards Improving softwares in `z-Firmware Delivery` for `IBM Infrastructure` by Developing `End-to-End Automation system` for Defect Creation and Handling  using `python.`")
+st.markdown(" ### **Work Experience:** ")
+st.markdown("**Software Developer** | **IBM Infrastructure z-Firmware (1+ years)**")
+st.markdown("- Crafted and implemented an end-to-end automation solution for defect creation and resolution, accelerating the z-Firmware delivery process.")
+st.markdown("- Reduced human error and manual intervention by automating critical software delivery workflows, improving overall operational efficiency, and ensuring smooth integration into IBM's infrastructure through cross-disciplinary collaboration.")
