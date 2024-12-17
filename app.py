@@ -13,9 +13,9 @@ with col2:
     st.markdown("Strong passion for `NLP`, and computer vision`CV`, ready to make an impact in fast-paced, innovative environments.")
     col1, col2 = st.columns([1, 1])
     with col1:
-        st.markdown("[Resume](https://drive.google.com/file/d/1GVkPIUYlIvuxJpSIvV1cIk6JnbyfydSI/view?usp=sharing)")
+        st.markdown("[Resume](https://drive.google.com/file/d/1S8F37BbT3Odjwt8KauYeDgjMXSFNrulO/view?usp=sharing)")
     with col2:
-        st.markdown("[LinkedIn](https://www.linkedin.com/in/harshini-vutukuri-a4b16321a/)")
+        st.markdown("[LinkedIn](https://www.linkedin.com/in/harshini1v/)")
 
 st.markdown("## Projects🏅")
 # 1
