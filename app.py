@@ -20,7 +20,7 @@ with col2:
 st.markdown("## Projects🏅")
 # 1
 
-st.markdown("### Detecting bullying Tweets `LSTM & BERT` [GitHub](https://github.com/Harshin1V/Detecting-bullying-Tweets-PyTorch-LSTM-BERT/blob/main/detecting-bullying-tweets-pytorch-lstm-bert.ipynb)")
+st.markdown("### Detection of Bullying Tweets Using `LSTM & BERT` [GitHub](https://github.com/Harshin1V/Detecting-bullying-Tweets-PyTorch-LSTM-BERT/blob/main/detecting-bullying-tweets-pytorch-lstm-bert.ipynb)")
 st.markdown("- **Objective**: Analyse tweets to <u>Detect cyberbullying,</u> categorizing bullying content by themes like religion, age, race, and gender, using <u>Sentiment analysis.</u>", unsafe_allow_html=True)
 st.markdown("- **Approach:** Implement and compare models, starting with a <u>Naive Bayes baseline,</u> then an <u>LSTM with Attention,</u> and finally <u>BERT,</u> utilizing PyTorch for model training and evaluation.", unsafe_allow_html=True)
 st.markdown("- **Results:** The <u>BERT classifier significantly outperforms the LSTM model,</u> achieving an overall <u>accuracy of around 95%</u> and <u>F1 scores above 95%.</u>", unsafe_allow_html=True)
